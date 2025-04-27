@@ -15,6 +15,9 @@ const magicWord = (moods,actions,advice) => {
     const actionChoose =actions[randomNumber(actions)];
     const adviceChoose = advice[randomNumber(advice)];
     const horoscopeSentence =`Today feels ${moodChoose} - its prefect time to ${actionChoose} and ${adviceChoose}`;
-    return horoscopeSentence;
+    //return horoscopeSentence;
+    document.getElementById('horoscope-message').innerHTML=horoscopeSentence;
 }
-console.log(magicWord(moods,actions,advice));
+const magicWordShow = () => {
+    magicWord(moods,actions,advice);
+}
