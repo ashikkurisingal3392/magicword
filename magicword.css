@@ -68,4 +68,6 @@ nav a {
     padding: 2rem;
     font-size: 1.8rem;
     color:#fff;
+    font-family: monospace;
+    white-space:pre-line;
 }
