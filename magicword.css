@@ -3,20 +3,19 @@ body {
     font-size: 16px;
     line-height: 1.6;
     font-family: 'Courier New', Courier, monospace;
+    margin-top: 0 auto;
     
 }
 
 header {
     background-color: rgba(1, 20, 35, 0.946);
     width: 100%;
-   
-    
 }
 .header-container nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 0.5em;
+    gap: 1em;
     padding: 1rem;
     justify-content: center;
 
@@ -49,22 +48,24 @@ nav a {
 }
 .horoscope-body p {
     font-size: 1.2em;
+    font-weight: 300;
 }
 #btnClick {
     
     border-radius: 5rem;
+    border: .1em solid rgba(1, 20, 35, 0.946) ;
     width: 6rem;
     height: 2.5rem;
     background-color: rgba(1, 20, 35, 0.946);
     color: #fff;
-   
 }
 #horoscope-message {
     display: flex;
     background-color: rgba(1, 20, 35, 0.946);
-    color:#fff;
     width: 35rem;
-    height: 8rem;
-    align-items: center;
+    box-shadow:1rem 1rem 1rem  rgba(1, 20, 35, 0.946);
+    align-content: center;
     padding: 2rem;
+    font-size: 1.8rem;
+    color:#fff;
 }
